@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width:100%;
+}
+p{
+    text-align: right;
+}
+h1{
+    text-align: center;
+    text-decoration:blue wavy underline;
+}
+h2{
+    text-align: center;
+    text-decoration:blue underline;
+}
+h3{
+    text-align: center;
+    text-decoration:blue dotted underline;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    text-align: center;
+    text-decoration: blue double underline;
+}
+#two{
+    text-align: center;
+    text-decoration: blue dashed underline;
+}
+#three{
+    text-align: center;
+    text-decoration: blue solid underline;
+}
+#one{
+    text-align: center;
+    text-decoration: blue  underline;
+}
+#hi{
+    text-align: start;
+    font-weight: normal;
+}
+#hello{
+    text-align: start;
+    font-weight: bold;
+}
+#ayan{
+    text-align: start;
+    text-align: start;
+    font-weight: lighter;
+}
+#parent{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  
+    
+  
+  }
+  #child1{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+  }
+  #child2{
+    height:200px;
+    width:200px;
+    background-color:rgb(192, 219, 14);
+    
+    
+  }
+  #child3{
+    height:200px;
+    width:200px;
+    background-color: rgb(163, 156, 12);
+  }

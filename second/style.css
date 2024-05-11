@@ -1,0 +1,351 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width:100%;
+}
+#one{
+    font-family: arial;
+}
+#two{
+    font-family: 'segoe UI';
+}
+#five{
+    font-family: serif;
+}
+#eight{
+    font-family: sans-serif;
+}
+#money{
+    font-family: cursive;
+}
+#nine{
+    font-family: fantasy;
+}
+#sahi{
+    font-family: monospace;
+}
+#three{
+    font-size: 35px;
+    line-height: 70px;
+    text-transform: capitalize;
+}
+#four{
+    font-size: 25px;
+}
+#ayan{
+    font-size: 15px;
+}
+body{
+    background-color:royalblue;
+}
+#main{
+    font-size: 35px;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+#gta{
+    font-size: 25px;
+    line-height: 70px;
+    text-transform: lowercase;
+}
+#heading{
+    text-align: center;
+    height: 70px;
+    width: 200px;
+    border-width: 4px;
+    border-style: dashed;
+    background-color: brown;
+    text-align: center;
+
+    
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+#main1{
+    height: 150px;
+    background-color: brown;
+    width: 200px;
+    border-width: 6px;
+    border-style: solid;
+
+}
+#main2{
+    height: 200px;
+    width: 200px;
+    background-color: darkslateblue;
+}
+#main3{
+    height: 150px;
+    width: 200px;
+    background-color: darkslategray;
+    border-width: 6px;
+    border-style: dotted;
+    margin-top:50px;
+}
+#main4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(8, 246, 246);
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 50%;
+}
+#main5{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(255, 255, 0);
+    border-width: 6px;
+    border-style: double;
+    border-radius: 15px;
+    padding-left: 50px;
+}
+#main6{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(8, 246, 246);
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 50%;
+}
+#main7{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(255, 255, 0);
+    border-width: 6px;
+    border-style: double;
+    border-radius: 15px;
+    padding-left: 50px;
+}
+#main8{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(8, 246, 246);
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 50%;
+}
+#main9{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(255, 255, 0);
+    border-width: 6px;
+    border-style: double;
+    border-radius: 15px;
+    padding-left: 50px;
+}
+#parent{
+    display: flex; 
+}
+#main10{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+}
+#main11{
+    background-color: black;
+    height:30px;
+    width: 1350px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#main12{
+    color: rgb(240, 240, 0);
+}
+#main13{
+    color:white;
+}
+#main14{
+    color: white;
+}
+#main15{
+    color: beige;
+}
+#main16{
+    background-color: rgb(251, 251, 5);
+}
+#main17{
+    background-color: cyan;
+    display:inline;
+}
+#main18{
+    display:block;
+}
+#main19{
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+    margin:25px;
+    padding:25px;
+    display: inline;
+}
+#main20{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding:25px;
+    display: inline;
+}
+#main21{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding:25px;
+    display: inline-block;
+}
+#main22{
+    background-color: rgba(255,0,0,0.5);
+    height: 100px;
+    width: 100px;
+}
+#main23{
+     height: 100px;
+     width: 100px;
+     background-color:rgba(0, 0, 255, 0.5);
+}
+#main24{
+     height: 100px;
+     width: 100px;
+     background-color:rgba(0, 0, 255,0.75);
+}
+#main25{
+     height: 100px;
+     width: 100px;
+     background-color:rgba(0,0,255,1);
+}
+.contentbox{
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#navbar{
+    background-color: black;
+    height:30px;
+    width: 1350px;
+    gap:25px;
+
+}
+#box15{
+    height: 100px;
+    width:200px;
+    background-color: red;
+    font-size: 10px;
+}
+#box18{
+    height: 50px;
+    width: 30%;
+    background-color: yellowgreen;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5em;
+}
+#box20{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 63, 5);
+    border: 2px solid black;
+    display: inline-block;
+    position: relative;
+    top:10px;
+}
+#main26{
+    height:100px;
+    width:100px;
+    background-color: red;
+    position:relative;
+    left: 20px;
+}
+#main27{
+    height:100px;
+    width: 100px;
+    background-color: rgb(128, 255, 9);
+    position:relative;
+    top:25px;
+}    
+#main28{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+}
+
+#main29{
+    height:100px;
+    width: 100px;
+    position: fixed;
+    top:0px;
+    background-color: darkred;
+}
+#main30{
+    height:500px;
+    width:500px;
+    background-image: url("https://images.unsplash.com/photo-1563206767-5b18f218e8de?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-color: blue;
+    background-size: contain;
+}
+#main31{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    right: 0px;
+}
+#main32{
+    height: 300px;
+    width: 850px;
+   display: flex;
+   flex-direction: row;
+   border: 2px solid black;
+   align-content: center;
+#main33{
+    background-color: blue;
+    height: 100px;
+    width:100px;
+}
+#main34{
+    background-color: aqua;
+    height: 100px;
+    width:100px;
+}
+#main35{
+    background-color: coral;
+    height: 100px;
+    width: 100px;
+    /* flex-grow:1; */
+}
+#main36{
+    background-color: rgb(255, 255, 0);
+    height: 100px;
+    width:100px;
+}
+#main37{
+    background-color: rgb(246, 103, 8);
+    height: 100px;
+    width:100px;   
+}
+
+#main41{
+    background-color: rgb(255,5,5)
+}
+ div {
+    background-color: blue;
+}
+
+a {
+    text-decoration:none;
+}
